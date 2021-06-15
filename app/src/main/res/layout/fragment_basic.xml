@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basic_math"
+    tools:context=".BasicFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        />
+    <Button
+        android:id="@+id/counting"
+        android:text="Counting Song"
+        android:layout_marginTop="110dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+
+        android:background="@drawable/button_bg"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/add"
+        android:text="ADDITION"
+        android:layout_alignBottom="@+id/counting"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/button_bg"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/sub"
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/button_bg"
+        android:text="SUBTRACTION"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mul"
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="-63dp"
+        android:background="@drawable/button_bg"
+        android:text="MULTIPLICATION"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mul"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/button_bg"
+        android:text="DIVISION"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sqrt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/div"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/button_bg"
+        android:text="Square Root"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sqrt"
+        android:layout_marginLeft="85dp"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/button_bg"
+        android:text="Calculator"
+        android:textSize="30sp" />
+</RelativeLayout>

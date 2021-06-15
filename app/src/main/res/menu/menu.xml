@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Counting"
+    android:icon="@drawable/ic_baseline_filter_1_24"
+    android:id="@+id/counting"
+    />
+    <item
+        android:title="Tables"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:id="@+id/tables"
+        />
+
+    <item
+        android:title="Basic"
+        android:icon="@drawable/ic_baseline_child_care_24"
+        android:id="@+id/basic"
+        />
+
+    <item
+        android:title="Quiz"
+        android:icon="@drawable/ic_outline_create_24"
+        android:id="@+id/quiz"
+        />
+
+    <item
+        android:title="Progress"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:id="@+id/progress"
+        />
+</menu>

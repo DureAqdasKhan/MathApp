@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229349305458",
+    "project_id": "math-school-c8158",
+    "storage_bucket": "math-school-c8158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229349305458:android:3fd6a66c8aa7074bc3e6eb",
+        "android_client_info": {
+          "package_name": "com.example.mathappt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229349305458-a52ct9rcu5cap5521ilso7v0ndqnhnve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd3Bh181tIZjM-MbKThKikzcFCcf_UudY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229349305458-a52ct9rcu5cap5521ilso7v0ndqnhnve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

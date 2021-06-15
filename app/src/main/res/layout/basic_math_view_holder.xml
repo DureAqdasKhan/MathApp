@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textholder"
+    android:textSize="20sp"
+    android:text="HELLO"
+    android:textColor="#000000"
+    />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_below="@+id/textholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+         />
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:id="@+id/video"
+        />
+</RelativeLayout>

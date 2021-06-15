@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="@drawable/quiz"
+    >
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="question"
+        android:textSize="90dp"
+        android:textColor="#4CAF50"
+        />
+
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="40dp"
+        android:text="a1"
+        android:background="@drawable/button_bg"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="160dp"
+        android:text="a2"
+        android:background="@drawable/button_bg"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="280dp"
+        android:text="a3"
+        android:background="@drawable/button_bg"
+        android:textSize="30dp"
+        />
+
+</FrameLayout>
